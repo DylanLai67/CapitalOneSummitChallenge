@@ -6,21 +6,28 @@
 
 }
 
+.TOP{
+    position: absolute;
+    background-color: rgb(128, 0, 111);
+    /* background-image: url(https://api.time.com/wp-content/uploads/2016/08/gettyimages-535829001.jpg?w=941&quality=85); */
+    top: 0;
+    width: 100%
+}
 
 .NAM {
     position: absolute;
     top: 0;
-    color: rgb(10,43,100);
+    color: rgb(61, 14, 6);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90px;
     font-weight: bold;
-    font-style: oblique;
-}
+    /* font-style: oblique;  */
+} 
 
 .container {
     position: relative;
     background: white;
-    top: 200px;
+    top: 150px;
     width: 70%;
     margin: 0 auto;
 }
@@ -43,14 +50,23 @@
     right: 0%;    
     width: 50%;
 }
-.live-stream {
+.top-link {
     position: absolute;
-    top: 0%;
-    right: 0%
+    top: 30px;
+    right: 0%;
+    font-size: 150%;
 
 }
 
 .footer{
     position: absolute;
     bottom: 5%;
+}
+
+.activity-message{
+    position: relative;
+    top: 100px;
+    font-size: 45px;
+    text-align: center;
+
 }
