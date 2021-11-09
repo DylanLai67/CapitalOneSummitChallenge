@@ -8,8 +8,8 @@
 
 .TOP{
     position: absolute;
-    background-color: rgb(128, 0, 111);
-    /* background-image: url(https://api.time.com/wp-content/uploads/2016/08/gettyimages-535829001.jpg?w=941&quality=85); */
+    /* background-color: rgb(128, 0, 111); */
+    
     top: 0;
     width: 100%
 }
@@ -32,7 +32,7 @@
     margin: 0 auto;
 }
 
-.activities-list{
+.list-left{
     position: absolute;
     background: red;
     top: 0%;
@@ -42,7 +42,7 @@
     
 }
 
-.national-parks-list{
+.list-right{
     position: absolute;
     background: blue;
     top: 0%;
