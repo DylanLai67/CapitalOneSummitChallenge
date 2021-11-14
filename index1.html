@@ -11,42 +11,51 @@
 
     <!-- Local and imported css stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/scroll.css" />
 
 
 
 
 
 </head>
-<style>
+<style >
     body {
-        background-color: rgb(165, 43, 19);
+        background-image: url('pictures/background.jpg');
+        width: 100%;
+        height: 100%;
+       
     }
 </style>
+
+
 <body>
     
-    <!-- <header>
-        <section style="position: relative">
-            <h5 class = "NAM"> NAM </h5>
-        <section/>
-    </header> -->
-
-    <div class = "TOP" style="background-image: url('background.png');">
-        <div class="NAM"> 
-            <!-- <h5 class="NAM">  -->
-                NAM
-            <!-- </h5> -->
-            </div>
-
-        <div>
-            <a
-                class="top-link"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="index2.html"
-            >
-                Check out live streams!
-            </a>
+    <header>
+        <div class="marquee" >
+          <p>NAM - Nature Activities and More - Learn more about National Parks!</p>
         </div>
+    </header>
+
+    <div class = "TOP">
+        <div>
+            <div class="NAM" style= "padding-top: 15px;"> 
+                <!-- <h5 class="NAM">  -->
+                    N<span class = "NAM-small">ature</span>
+                    A<span class = "NAM-small">ctivities</span>
+                    M<span class = "NAM-small">ore</span>
+                <!-- </h5> -->
+                </div>
+    
+            <div>
+                <a
+                    class="top-link"
+                    rel="noopener noreferrer"
+                    href="index2.html"
+                >
+                    Check out live streams!
+                </a>
+            </div>
+        </div>      
         
 
     </div>
@@ -60,14 +69,14 @@
 
 
     <div class="container"><!--block containint the two list-->
-        <div class="list-left" style=""><!--activities block-->
-            <div><!--block for just the title-->
-                <p class="label-left" style="">
-                    <h3>Activities</h3>
+        <div class="list-left" ><!--activities block-->
+            <div style = "background-color: rgb(78,55,12);"><!--block for just the title-->
+                <p class="label-left" >
+                    <h3 style = "color: white">Activities - Pick an activity!</h3>
                 </p>
             </div>
 
-            <div><!--block for the list of activities-->
+            <div class = "scroll"><!--block for the list of activities-->
                 <ul class="activities-list">
                     
                 </ul>
@@ -76,27 +85,28 @@
         </div>
 
 
-        <div class="list-right" style=""><!--parks list block-->
-            <div><!--block for just the title-->
-                <p class="label-right" style="">
-                    <h3>National Parks</h3>
+        <div class="list-right" ><!--parks list block-->
+            <div style = "background-color: rgb(78,55,12)" >
+                <p class="label-right" >
+                    <h3 style = "color: white">National Parks - Pick a National Park!</h3>
                 </p>
             </div>
 
-            <div><!--block for the list of parks-->
-                <ul>
-                    <li>Zion</li>
-                    <li>Yellowstone</li>
-                    <li>Grand Canyon</li>
-                    <li>Acadia</li>
-                    <li>Rocky Mountain</li>
+            <div class = "scroll"><!--block for the list of parks-->
+                <ul class="parks-list" id = "root" style="font-size: 20px; padding: 15px">
+                    Pick an activity first!
+                    
                 </ul>
             </div>
 
         </div>
 
-        </div>
+        
 
+
+    </div>
+
+    <div>
 
     </div>
 
@@ -105,6 +115,7 @@
     <footer class="footer">
         <p class="footnote">Created by Dylan Lai © October 2021 </p>
         <a
+            style="font-size:15px"
             target="_blank"
             rel="noopener noreferrer"
             href="https://github.com/DylanLai67/CapitalOneSummitChallenge"
@@ -123,6 +134,6 @@
 
 </main> -->
 
-<script src="index.js"></script>
+<script src="index1.js"></script>
 
 </html>
