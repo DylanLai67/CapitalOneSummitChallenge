@@ -23,6 +23,6 @@ REQUIRED: In your submission, you will need to link to a live deployed website (
         -Code Quality & Clarity
         -Creativity / Aesthetics (think UI/UX)
 
-#Demos
+# Demos
 ![Demo](pictures/Animation.gif)
 
