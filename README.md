@@ -6,7 +6,7 @@ A simple and easy to use website to help users find outdoor activities at Nation
 Deployed Website: https://dylanlai67.github.io/CapitalOneSummitChallenge/
 
 # My Solution
-For this MindSumo Challenege, I utilized HTML and CSS to format and design my website. Additionally, I used Javascript to make my web application interactive by fetching data from National Park Service API. Finally, I used Github pages to deploy and siplay my work.
+For this MindSumo Challenge, I utilized HTML and CSS to format and design my website. Additionally, I used Javascript to make my web application interactive by fetching data from National Park Service API. Finally, I used Github pages to deploy and diplay my work.
 
 # Challenge Prompt
 **Copied from MindSumo:** 
